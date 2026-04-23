@@ -951,7 +951,31 @@
 
 <!-- ── NAV ── -->
 <nav>
-  <a class="nav-logo" href="#accueil">JRLS</a>
+  <a href="#accueil" style="text-decoration:none;display:flex;align-items:center;">
+    <svg width="180" height="44" viewBox="0 0 360 88" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="goldNav" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" style="stop-color:#C9A84C"/>
+          <stop offset="50%" style="stop-color:#F0C96B"/>
+          <stop offset="100%" style="stop-color:#C9A84C"/>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="10" width="2" height="68" fill="#C9A84C" opacity="0.5"/>
+      <text x="12" y="66" font-family="Georgia,serif" font-size="58" font-weight="700" fill="url(#goldNav)" letter-spacing="4">JRLS</text>
+      <rect x="222" y="14" width="1" height="46" fill="#C9A84C" opacity="0.4"/>
+      <text x="232" y="36" font-family="Arial,sans-serif" font-size="9" font-weight="400" fill="#C9A84C" letter-spacing="4">PRODUCTION</text>
+      <text x="232" y="52" font-family="Arial,sans-serif" font-size="7.5" font-weight="400" fill="#7a6230" letter-spacing="3">LABEL INDÉPENDANT</text>
+      <rect x="232" y="60" width="2" height="8" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="238" y="56" width="2" height="16" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="244" y="52" width="2" height="22" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="250" y="57" width="2" height="14" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="256" y="61" width="2" height="8" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="262" y="54" width="2" height="18" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="268" y="59" width="2" height="10" fill="#C9A84C" rx="1" opacity="0.7"/>
+      <rect x="12" y="72" width="264" height="1" fill="url(#goldNav)" opacity="0.3"/>
+      <rect x="12" y="75" width="80" height="1" fill="#C9A84C" opacity="0.5"/>
+    </svg>
+  </a>
   <ul class="nav-links">
     <li><a href="#fondateurs">Fondateurs</a></li>
     <li><a href="#equipe">Équipe</a></li>
@@ -959,6 +983,7 @@
     <li><a href="#artistes">Artistes</a></li>
     <li><a href="#rejoindre">Rejoindre</a></li>
     <li><a href="#annonces">Annonces</a></li>
+    <li><a href="#contrat" style="color:var(--gold)!important;">Contrat ✦</a></li>
   </ul>
   <a href="https://discord.gg/EfVc6yxPg3" target="_blank" class="btn-gold" style="font-size:10px; padding:10px 20px;">Discord</a>
 </nav>
@@ -1250,6 +1275,15 @@
 
   </div>
 
+  <!-- BOUTON VERS CONTRAT -->
+  <div style="text-align:center;margin:48px auto 0;" class="reveal">
+    <p style="font-family:'Syne',sans-serif;font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--gray);margin-bottom:20px;">Prêt à rejoindre l'aventure ?</p>
+    <a href="#contrat" style="display:inline-block;padding:18px 48px;background:var(--gold);color:var(--black);font-family:'Syne',sans-serif;font-size:13px;font-weight:700;letter-spacing:3px;text-transform:uppercase;text-decoration:none;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);transition:background 0.3s;">
+      📋 REMPLIR LE FORMULAIRE DE CANDIDATURE ✦
+    </a>
+    <p style="font-family:'Syne',sans-serif;font-size:11px;color:var(--gold-dim);margin-top:16px;letter-spacing:1px;">Vous serez contacté par email dans les plus brefs délais</p>
+  </div>
+
   <div style="max-width:700px;margin:40px auto 0;padding:32px;background:rgba(88,101,242,0.08);border:1px solid rgba(88,101,242,0.25);" class="reveal">
     <p style="font-family:'Syne',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:#8b9df5;margin-bottom:8px;">Tickets · Discord</p>
     <p style="font-size:14px;color:var(--gray);line-height:1.7;">
@@ -1420,6 +1454,282 @@
 
   </div>
 </section>
+
+
+<!-- ── CONTRAT ── -->
+<section id="contrat" style="background:var(--dark);padding:100px 48px;">
+  <div class="section-header reveal">
+    <span class="section-num">07 — Candidature</span>
+    <h2 class="section-title">FORMULAIRE DE <span>CONTRAT</span></h2>
+    <div class="section-divider"></div>
+    <p style="color:var(--gray);font-size:14px;margin-top:20px;max-width:600px;margin-left:auto;margin-right:auto;line-height:1.7;">
+      Remplissez ce formulaire pour rejoindre JRLS Production. Notre équipe analysera votre profil et vous contactera par email.
+    </p>
+  </div>
+
+  <!-- ÉTAPES -->
+  <div style="display:flex;justify-content:center;gap:0;max-width:800px;margin:0 auto 60px;flex-wrap:wrap;" class="reveal">
+    <div style="flex:1;min-width:160px;text-align:center;padding:20px;position:relative;">
+      <div style="width:48px;height:48px;border-radius:50%;background:var(--gold);color:var(--black);font-family:'Bebas Neue',sans-serif;font-size:22px;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;">1</div>
+      <p style="font-family:'Syne',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--white);">Remplir</p>
+      <p style="font-size:12px;color:var(--gray);margin-top:4px;">Le formulaire</p>
+    </div>
+    <div style="flex:0;display:flex;align-items:center;padding-bottom:24px;color:var(--gold-dim);font-size:20px;">→</div>
+    <div style="flex:1;min-width:160px;text-align:center;padding:20px;">
+      <div style="width:48px;height:48px;border-radius:50%;background:rgba(201,168,76,0.15);border:1px solid var(--gold-dim);color:var(--gold);font-family:'Bebas Neue',sans-serif;font-size:22px;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;">2</div>
+      <p style="font-family:'Syne',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--white);">Analyse</p>
+      <p style="font-size:12px;color:var(--gray);margin-top:4px;">Par notre équipe</p>
+    </div>
+    <div style="flex:0;display:flex;align-items:center;padding-bottom:24px;color:var(--gold-dim);font-size:20px;">→</div>
+    <div style="flex:1;min-width:160px;text-align:center;padding:20px;">
+      <div style="width:48px;height:48px;border-radius:50%;background:rgba(201,168,76,0.15);border:1px solid var(--gold-dim);color:var(--gold);font-family:'Bebas Neue',sans-serif;font-size:22px;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;">3</div>
+      <p style="font-family:'Syne',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--white);">Contact</p>
+      <p style="font-size:12px;color:var(--gray);margin-top:4px;">Par Gmail</p>
+    </div>
+    <div style="flex:0;display:flex;align-items:center;padding-bottom:24px;color:var(--gold-dim);font-size:20px;">→</div>
+    <div style="flex:1;min-width:160px;text-align:center;padding:20px;">
+      <div style="width:48px;height:48px;border-radius:50%;background:rgba(201,168,76,0.15);border:1px solid var(--gold-dim);color:var(--gold);font-family:'Bebas Neue',sans-serif;font-size:22px;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;">4</div>
+      <p style="font-family:'Syne',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--white);">Signature</p>
+      <p style="font-size:12px;color:var(--gray);margin-top:4px;">Du contrat JRLS</p>
+    </div>
+  </div>
+
+  <!-- FORMULAIRE -->
+  <div style="max-width:760px;margin:0 auto;background:var(--dark2);border:1px solid rgba(201,168,76,0.15);padding:56px 48px;position:relative;" class="reveal">
+    <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(to right,var(--gold),transparent);"></div>
+
+    <div id="form-success" style="display:none;text-align:center;padding:48px 24px;">
+      <div style="font-size:56px;margin-bottom:24px;">✅</div>
+      <h3 style="font-family:'Bebas Neue',sans-serif;font-size:36px;letter-spacing:3px;color:var(--gold);margin-bottom:12px;">CANDIDATURE ENVOYÉE !</h3>
+      <p style="font-size:14px;color:var(--gray);line-height:1.7;max-width:400px;margin:0 auto;">Notre équipe JRLS va analyser votre profil et vous recontacter par email dans les plus brefs délais. Bienvenue dans la famille ! 🎵</p>
+      <a href="https://discord.gg/EfVc6yxPg3" target="_blank" style="display:inline-block;margin-top:32px;padding:14px 36px;background:var(--gold);color:var(--black);font-family:'Syne',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;">Rejoindre le Discord ✦</a>
+    </div>
+
+    <div id="form-content">
+      <!-- SECTION 1 : IDENTITÉ -->
+      <div style="margin-bottom:40px;">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;">
+          <span style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--gold);">01</span>
+          <div>
+            <p style="font-family:'Syne',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);">Identité</p>
+            <p style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--white);">QUI ÊTES-VOUS ?</p>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Prénom *</label>
+            <input id="f-prenom" type="text" placeholder="Votre prénom" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+          </div>
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Nom *</label>
+            <input id="f-nom" type="text" placeholder="Votre nom" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+          </div>
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Âge *</label>
+            <input id="f-age" type="number" placeholder="Votre âge" min="13" max="99" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+          </div>
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Nom de scène</label>
+            <input id="f-scene" type="text" placeholder="Votre pseudo artistique" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;transition:border-color 0.3s;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+          </div>
+        </div>
+      </div>
+
+      <div style="height:1px;background:rgba(201,168,76,0.1);margin-bottom:40px;"></div>
+
+      <!-- SECTION 2 : RÔLE -->
+      <div style="margin-bottom:40px;">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;">
+          <span style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--gold);">02</span>
+          <div>
+            <p style="font-family:'Syne',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);">Profil</p>
+            <p style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--white);">VOTRE RÔLE</p>
+          </div>
+        </div>
+        <p style="font-size:13px;color:var(--gray);margin-bottom:16px;">Sélectionnez votre ou vos rôles (plusieurs choix possibles) :</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;" id="roles-grid">
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Rappeur" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎤 Rappeur</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Rappeuse" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎤 Rappeuse</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Chanteur" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎵 Chanteur</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Chanteuse" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎵 Chanteuse</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Beatmaker" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎹 Beatmaker</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Ingénieur du son" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎛️ Ingé son</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Graphiste" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">🎨 Graphiste</span>
+          </label>
+          <label class="role-btn" style="display:flex;align-items:center;gap:10px;padding:14px 16px;border:1px solid rgba(201,168,76,0.2);cursor:pointer;transition:all 0.2s;background:var(--dark3);">
+            <input type="checkbox" value="Autre" style="accent-color:#C9A84C;width:16px;height:16px;"> <span style="font-family:'Syne',sans-serif;font-size:12px;color:var(--white);">➕ Autre</span>
+          </label>
+        </div>
+      </div>
+
+      <div style="height:1px;background:rgba(201,168,76,0.1);margin-bottom:40px;"></div>
+
+      <!-- SECTION 3 : EXPÉRIENCE -->
+      <div style="margin-bottom:40px;">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;">
+          <span style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--gold);">03</span>
+          <div>
+            <p style="font-family:'Syne',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);">Expérience</p>
+            <p style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--white);">VOTRE PARCOURS</p>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Depuis combien de temps ? *</label>
+            <select id="f-anciennete" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;cursor:pointer;">
+              <option value="" style="background:var(--dark3);">Sélectionner...</option>
+              <option value="Moins de 6 mois" style="background:var(--dark3);">Moins de 6 mois</option>
+              <option value="6 mois à 1 an" style="background:var(--dark3);">6 mois à 1 an</option>
+              <option value="1 à 3 ans" style="background:var(--dark3);">1 à 3 ans</option>
+              <option value="3 à 5 ans" style="background:var(--dark3);">3 à 5 ans</option>
+              <option value="Plus de 5 ans" style="background:var(--dark3);">Plus de 5 ans</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Avez-vous des sorties ?</label>
+            <select id="f-sorties" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;cursor:pointer;">
+              <option value="" style="background:var(--dark3);">Sélectionner...</option>
+              <option value="Non, je débute" style="background:var(--dark3);">Non, je débute</option>
+              <option value="Oui, sur SoundCloud" style="background:var(--dark3);">Oui, sur SoundCloud</option>
+              <option value="Oui, sur Spotify" style="background:var(--dark3);">Oui, sur Spotify</option>
+              <option value="Oui, sur YouTube" style="background:var(--dark3);">Oui, sur YouTube</option>
+              <option value="Oui, sur plusieurs plateformes" style="background:var(--dark3);">Oui, plusieurs plateformes</option>
+            </select>
+          </div>
+        </div>
+        <div style="margin-top:16px;">
+          <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Lien vers votre musique (optionnel)</label>
+          <input id="f-lien" type="url" placeholder="https://soundcloud.com/... ou https://spotify.com/..." style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+        </div>
+        <div style="margin-top:16px;">
+          <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Décrivez votre projet / motivation *</label>
+          <textarea id="f-motivation" placeholder="Parlez-nous de vous, de votre style musical, de vos ambitions et pourquoi vous voulez rejoindre JRLS Production..." rows="4" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;resize:vertical;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"></textarea>
+        </div>
+      </div>
+
+      <div style="height:1px;background:rgba(201,168,76,0.1);margin-bottom:40px;"></div>
+
+      <!-- SECTION 4 : CONTACT -->
+      <div style="margin-bottom:40px;">
+        <div style="display:flex;align-items:center;gap:16px;margin-bottom:28px;">
+          <span style="font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--gold);">04</span>
+          <div>
+            <p style="font-family:'Syne',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);">Contact</p>
+            <p style="font-family:'Bebas Neue',sans-serif;font-size:20px;letter-spacing:2px;color:var(--white);">COMMENT VOUS JOINDRE</p>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Adresse Gmail * <span style="color:var(--gold);">📧</span></label>
+            <input id="f-gmail" type="email" placeholder="votre@gmail.com" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+          </div>
+          <div>
+            <label style="display:block;font-family:'Syne',sans-serif;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:8px;">Pseudo Discord (optionnel)</label>
+            <input id="f-discord" type="text" placeholder="VotrePseudo#0000" style="width:100%;background:var(--dark3);border:1px solid rgba(201,168,76,0.2);color:var(--white);padding:14px 16px;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;" onfocus="this.style.borderColor='#C9A84C'" onblur="this.style.borderColor='rgba(201,168,76,0.2)'"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- MENTIONS -->
+      <div style="background:rgba(201,168,76,0.05);border:1px solid rgba(201,168,76,0.15);padding:20px 24px;margin-bottom:32px;">
+        <p style="font-size:12px;color:var(--gray);line-height:1.7;">
+          📋 En soumettant ce formulaire, vous acceptez d'être contacté par l'équipe JRLS Production par email. Vos données ne seront pas partagées à des tiers. Un contrat officiel vous sera envoyé si votre candidature est retenue.
+        </p>
+      </div>
+
+      <!-- ERREUR -->
+      <div id="form-error" style="display:none;background:rgba(237,66,69,0.1);border:1px solid rgba(237,66,69,0.3);padding:16px 20px;margin-bottom:24px;font-size:13px;color:#ff6b6b;font-family:'Syne',sans-serif;"></div>
+
+      <!-- BOUTON SUBMIT -->
+      <button onclick="submitContrat()" style="width:100%;padding:20px;background:var(--gold);color:var(--black);font-family:'Syne',sans-serif;font-size:14px;font-weight:700;letter-spacing:3px;text-transform:uppercase;border:none;cursor:pointer;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);transition:background 0.3s;" onmouseover="this.style.background='#F0C96B'" onmouseout="this.style.background='#C9A84C'">
+        ENVOYER MA CANDIDATURE ✦
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+function submitContrat() {
+  const prenom     = document.getElementById('f-prenom').value.trim();
+  const nom        = document.getElementById('f-nom').value.trim();
+  const age        = document.getElementById('f-age').value.trim();
+  const scene      = document.getElementById('f-scene').value.trim();
+  const anciennete = document.getElementById('f-anciennete').value;
+  const sorties    = document.getElementById('f-sorties').value;
+  const lien       = document.getElementById('f-lien').value.trim();
+  const motivation = document.getElementById('f-motivation').value.trim();
+  const gmail      = document.getElementById('f-gmail').value.trim();
+  const discord    = document.getElementById('f-discord').value.trim();
+  const errDiv     = document.getElementById('form-error');
+
+  const roles = [...document.querySelectorAll('#roles-grid input:checked')].map(i => i.value);
+
+  errDiv.style.display = 'none';
+
+  if (!prenom || !nom || !age || !anciennete || !motivation || !gmail) {
+    errDiv.textContent = '⚠️ Merci de remplir tous les champs obligatoires (marqués *).';
+    errDiv.style.display = 'block';
+    errDiv.scrollIntoView({ behavior:'smooth', block:'center' });
+    return;
+  }
+  if (!gmail.includes('@')) {
+    errDiv.textContent = '⚠️ Veuillez entrer une adresse Gmail valide.';
+    errDiv.style.display = 'block';
+    return;
+  }
+  if (roles.length === 0) {
+    errDiv.textContent = '⚠️ Veuillez sélectionner au moins un rôle.';
+    errDiv.style.display = 'block';
+    return;
+  }
+
+  const WEBHOOK = "https://discord.com/api/webhooks/1496629047462068246/Wc3ypyrQfLfP8OE-lYx8HAamm6sxR1dvb9RT-ISTy54T4YHwAxAWezOOUU13e1nhzCcV";
+
+  const embed = {
+    title: "📋 Nouvelle Candidature — JRLS Production",
+    color: 0xC9A84C,
+    fields: [
+      { name: "👤 Identité",      value: `**${prenom} ${nom}** — ${age} ans`, inline: false },
+      { name: "🎭 Nom de scène",  value: scene || "Non renseigné",             inline: true  },
+      { name: "🎤 Rôle(s)",       value: roles.join(', '),                      inline: true  },
+      { name: "⏱️ Ancienneté",    value: anciennete,                            inline: true  },
+      { name: "💿 Sorties",       value: sorties || "Non renseigné",            inline: true  },
+      { name: "🔗 Lien musique",  value: lien || "Aucun",                       inline: false },
+      { name: "💬 Motivation",    value: motivation.substring(0, 500),          inline: false },
+      { name: "📧 Gmail",         value: gmail,                                 inline: true  },
+      { name: "💬 Discord",       value: discord || "Non renseigné",            inline: true  },
+    ],
+    footer: { text: "JRLS Production · Formulaire de candidature" },
+    timestamp: new Date().toISOString()
+  };
+
+  fetch(WEBHOOK, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ embeds: [embed] })
+  }).then(() => {
+    document.getElementById('form-content').style.display = 'none';
+    document.getElementById('form-success').style.display = 'block';
+    document.getElementById('form-success').scrollIntoView({ behavior:'smooth', block:'center' });
+  }).catch(() => {
+    errDiv.textContent = "⚠️ Une erreur s'est produite. Veuillez réessayer ou nous contacter directement sur Discord.";
+    errDiv.style.display = 'block';
+  });
+}
+</script>
 
 <!-- ── FOOTER ── -->
 <footer>
